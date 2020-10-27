@@ -14,13 +14,38 @@
   min-height: 600px;
   max-height: 756px;
   /* выше установили ограничения для секции */
+  background-color:  #f2f2f2;
+  display: flex;
 }
 
+.logo {
+  height: 32px;
+  width: 83px;
+}
+
+.logo_place_header{
+  background-image: url(images/logo_place_header.svg);
+  position: absolute;
+  top: 30px;
+  left: 64px;
+
+}
+
+.header__title {
+  align-self: center;
+  line-height: 96px;
+  font-size: 96px;
+  width: 730px;
+  padding: 0;
+  margin: 0 0 0 64px;
+}
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
   width: 568px;
 }
+
+
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
