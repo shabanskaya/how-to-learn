@@ -41,7 +41,7 @@
   width: 730px;
   padding: 0;
   margin: 0 0 0 64px;
-  font-weight: bolder;
+  font-weight: bold;
   align-self: center;
   z-index: 3;
 }
@@ -125,7 +125,7 @@
 }
 
 .two-columns__span-accent {
-  font-weight: bolder;
+  font-weight: bold;
 }
 
 .section-title {
@@ -134,7 +134,7 @@
   margin: 0 auto 20px;
   line-height: 1.15;
   font-size: 60px;
-  font-weight: bolder;
+  font-weight: bold;
   text-align: center;
 }
 
@@ -165,7 +165,7 @@
 .table__heading {
   line-height: 1.15;
   font-size: 24px;
-  font-weight: bolded;
+  font-weight: bold;
   margin: 0;
   padding: 0;
 }
@@ -189,7 +189,7 @@
   padding: 100px 0 70px;
   font-size: 120px;
   line-height: 1.15;
-  font-weight: bolder;
+  font-weight: bold;
   width: 648px;
   text-align: center;
   position: relative;
