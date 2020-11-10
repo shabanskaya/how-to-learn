@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./styles/normalize.css">
+  <link rel="stylesheet" href="./vendor/normalize.css">
   <link rel="stylesheet" href="./pages/index.css">
   <title>Научиться учиться</title>
 </head>
@@ -14,7 +14,7 @@
       <h1 class = "header__title">Научиться учиться</h1>
       <p class = "header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни? <a class = "header__link" href = "#">Узнать &#8594;</a></p>
       <div class = "header__main-illustration"></div>
-      <div class = "header__square-pic"></div>
+      <div class = "header__square-pic rotation header__rotation"></div>
     </header>
 
     <main class="content">
@@ -35,6 +35,48 @@
         </article>
       </section>
 
+      <section class ="techniques">
+        <h2 class="section-title">Техники обучения</h2>
+        <p class="section-subtitle">Пять практик от Барбары Оакли</p>
+        <ul class="cards">
+          <li class="cards__item">
+            <img class="cards__image" alt="Книга в руках крупным планом" src="./images/cards-attention.png">
+            <h3 class = "cards__title">Два вида внимания</h3>
+            <p class="cards__description">
+              Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.
+            </p>
+          </li>
+          <li class="cards__item">
+            <img class="cards__image" alt="Мраморная скульптура задумчивого человека" src="./images/cards-recall.png">
+            <h3 class = "cards__title">Recall</h3>
+            <p class="cards__description">
+              Вспоминайте изученное — это позволит соединить разрозненные порции памяти.
+            </p>
+          </li>
+          <li class="cards__item">
+            <img class="cards__image" alt="Черно-белое фото просторного интерьера" src="./images/cards-interliving.png">
+            <h3 class = "cards__title">Интерливинг</h3>
+            <p class="cards__description">
+              Изучайте несколько навыков одновременно, они обогащают друг друга.
+            </p>
+          </li>
+          <li class="cards__item">
+            <img class="cards__image" alt="Человек в белом помещении" src="./images/cards-question.png">
+            <h3 class = "cards__title">Вопросы</h3>
+            <p class="cards__description">
+              Слушая преподавателя, придумывайте хороший вопрос, который вас действительно волнует.
+            </p>
+          </li>
+          <li class="cards__item">
+            <img class="cards__image" alt="Рука держит стопку книг" src="./images/cards-competence.png">
+            <h3 class = "cards__title">Иллюзия компетентности</h3>
+            <p class="cards__description">
+              Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.
+            </p>
+          </li>
+        </ul>
+      </section>
+  
       <section class="digits">
         <h2 class="section-title">Цифры и факты</h2>
         <p class="section-subtitle">Про учёбу и мозг</p>

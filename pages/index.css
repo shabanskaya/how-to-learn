@@ -9,9 +9,17 @@
 @import url(../blocks/header/__link/_hover/header__link_hover.css);
 @import url(../blocks/header/__main-illustration/header__main-illustration.css);
 @import url(../blocks/header/__square-pic/header__square-pic.css);
+@import url(../blocks/rotation/rotation.css);
+@import url(../blocks/header/__rotation/header__rotation.css);
+
+@import url(../blocks/techniques/techniques.css);
+@import url(../blocks/cards/cards.css);
+@import url(../blocks/cards/__item/cards__item.css);
+@import url(../blocks/cards/__image/cards__image.css);
+@import url(../blocks/cards/__title/cards__title.css);
+@import url(../blocks/cards/__description/cards__description.css);
 
 @import url(../blocks/description/description.css);
-
 @import url(../blocks/two-columns/two-columns.css);
 @import url(../blocks/two-columns/__brief/two-columns__brief.css);
 @import url(../blocks/two-columns/__main-text/two-columns__main-text.css);
