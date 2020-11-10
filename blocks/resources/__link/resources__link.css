@@ -1,8 +1,13 @@
-.resourses__link {
+.resources__link {
 	padding: 0;
 	margin: 0;
 	text-decoration: none;
 	font-size: 0;
 	line-height: 0;
 	box-sizing: border-box;
+	transition: 0.9s opacity ease;
+}
+
+.resources__link:hover {
+  opacity: .6;
 }
